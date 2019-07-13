@@ -1,5 +1,5 @@
 {
-  "name": "grc/sqrl-core",
+  "name": "sqrl/core",
   "description": "A web application framework agnostic implementation of the SQRL protocal conforming to the SSP API documentation: https://www.grc.com/sqrl/sspapi.htm",
   "version": "2019.1.0-dev",
   "time": "2019-07-13 13:55:00",
