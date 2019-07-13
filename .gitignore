@@ -1,0 +1,11 @@
+#ignore JetBrains IDE Project files
+/.idea
+
+# ignore Composer installed packages
+/vendor/
+
+# Apple
+.DS_Store
+
+# Node
+/node_modules/

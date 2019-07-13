@@ -1,0 +1,21 @@
+{
+  "name": "grc/sqrl-core",
+  "description": "A web application framework agnostic implementation of the SQRL protocal conforming to the SSP API documentation: https://www.grc.com/sqrl/sspapi.htm",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Lenda",
+      "email": "adamlenda@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+
+  },
+  "scripts": {
+    "post-install-cmd": "bash ./Build/YarnInstall.sh",
+    "post-update-cmd": "bash ./Build/YarnUpgrade.sh",
+    "post-autoload-dump": "bash ./Build/GulpDefault.sh"
+  }
+}
